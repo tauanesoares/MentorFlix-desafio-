@@ -1,8 +1,43 @@
-.perfil{
-    width: 190px;
-    height: 163px;
-    top: 343px;
-    left: 758px;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.perfil>img{
+    width: 155px;
+    height: 135px;
     gap: 0px;
-    opacity: 0px;
+    border-radius: 5px;
+}
+.mais>img{
+    width: 155px;
+    height: 135px;
+    gap: 0px;
+    border-radius: 5px;
+}
+body{
+    background-color: black;
+}
+*{
+    text-align: center;
+    color: white;
+    font-family: "Inter", sans-serif
+}
+.container-perfil{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+main{
+    margin-top: 90px;
+}
+h2{
+    font-size: 35px;
+}
+div.mais{
+    height: 195px;
+}
+img:hover {
+    border: 2px solid white; 
 }
